@@ -1,0 +1,162 @@
+:root {
+    --padding-left-right: 90px;
+    --dark-background: #1f2937;
+    --grey: #e5e7eb;
+    --blue: #3882f6;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    background-color: var(--blue);
+}
+
+.header {
+    display: flex;
+    padding: 20px var(--padding-left-right);
+}
+
+.header, .section-1, .footer {
+    background-color: var(--dark-background);
+    color: white;
+}
+
+.section-1 {
+    display: flex;
+    padding: 60px var(--padding-left-right);
+}
+
+.section-1 h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-1 button {
+    border: 2px solid var(--blue);
+}
+
+.subtitle-text {
+    font-size: 18px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.header-logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.image-placeholder {
+    background-color: darkslategray;
+    color: white;
+}
+
+.sign-up-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.image-placeholder {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    text-align: center;
+    padding: 30px 100px var(--padding-left-right);
+}
+
+.section2 h1 {
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    --card-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--card-width);
+}
+
+.card-image {
+    height: var(--card-width);
+    width: var(--card-width);
+    border: 5px solid var(--blue);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.section-3 {
+    padding: 100px 200px;
+    background-color: var(--grey);
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.section-4 {
+    padding: 100px;
+}
+
+.cta-container {
+    background-color: var(--blue);
+    border-color: var(--blue);
+    border-radius: 10px;
+    padding: 50px 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cta-text {
+    flex: 1
+}
+
+.cta-container h2 {
+    margin: 0;
+}
+
+.cta-container button {
+    border: 2px solid white;
+}
+
+.footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; 
+}
